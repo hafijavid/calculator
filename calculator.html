@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <script src="calc_script.js"></script>
+    <title>Calculator</title>
+    <link rel="stylesheet"
+        type="text/css"
+        href="calc_style.css"  />
+</head>
+<body>
+    <div class="title">Hafi Javid's Calculator</div>
+    <table border="1">
+        <tr>
+            <td colspan="3"><input type="text" id="result"/></td>
+            <!--Clear-->
+            <td><input type="button" value="c" onclick="clear()"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="input('1')"/></td>
+            <td><input type="button" value="2" onclick="input('2')"/></td>
+            <td><input type="button" value="3" onclick="input('3')"/></td>
+            <td><input type="button" value="/" onclick="input('/')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="input('4')"/></td>
+            <td><input type="button" value="5" onclick="input('5')"/></td>
+            <td><input type="button" value="6" onclick="input('6')"/></td>
+            <td><input type="button" value="-" onclick="input('-')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="input('7')"/></td>
+            <td><input type="button" value="8" onclick="input('8')"/></td>
+            <td><input type="button" value="9" onclick="input('9')"/></td>
+            <td><input type="button" value="+" onclick="input('+')"/></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="input('.')"/></td>
+            <td><input type="button" value="0" onclick="input('0')"/></td>
+            <td><input type="button" value="=" onclick="solve()"/></td> <!--solve-->
+            <td><input type="button" value="*" onclick="input('*')"/></td>
+        </tr>
+    </table>
+</body>
