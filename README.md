@@ -5,4 +5,3 @@ https://hafijavid.live/calculator/calculator.html
 Check out the full site below:
 https://hafijavid.live
 
-Possible blog post about this calculator coming soon!
